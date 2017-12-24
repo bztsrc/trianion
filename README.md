@@ -45,7 +45,7 @@ the distance of zerus and existential element on the existential element will pr
 ```
 So it is possible to describe natural numbers without the next operator, using recursively the distance operator only.
 
-When used on the basic elements in one-dimensional space, this distance operator should produce the basic elements.
+When used on the basic elements in one-dimensional space, this distance operator should lead out of natural numbers.
 
 ```
 d(0,0) = 0
@@ -54,7 +54,7 @@ d(1,0) = -1
 d(1,1) = 0
 ```
 
-This is great as it also lead us to the negative numbers as well. Now using the same direction keeping Euclidean distance on more
+This is great as it lead us to the negative numbers. Now using the same direction keeping Euclidean distance on two
 dimensions gives us:
 
 ```
@@ -67,7 +67,7 @@ d(0,1+d(0,1)) = sqrt(2)  = z
 Here the combination of basic elements gives us 3 possible outcome. No surprise in that. Zerus element, existential
 element, an so called imaginary element. These three describes a two-dimensional space called as complex numbers. Now the
 interesting part is, applying it to one level recursion of a distance (distance of a distance to zerus), it also
-gives us a fourth element, sqrt(2) which is known as an irrational number. This hints us the following:
+gives us a fourth element, sqrt(2) which is known as an irrational number. This hints us the following on three-dimensional space:
 
 Conclusion
 ----------
@@ -83,7 +83,7 @@ n = ar + bi + cz = a + b*sqrt(-1) + c*sqrt(2)
 ```
 
 I won't prove that these basis are forming exclusive dimensions as that has already been done by many mathematicians, and is a
-well know fact. No number exists that would fullfill the following equations:
+well known fact. No number exists that could fullfill the following equations:
 
 ```
 a*r = i
