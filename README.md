@@ -58,15 +58,15 @@ This is great as it lead us to the negative numbers. Now using the same directio
 dimensions gives us:
 
 ```
-d(0,0)        = sqrt(0)  = 0
-d(0,1)        = sqrt(1)  = 1
-d(1,0)        = sqrt(-1) = i
-d(0,1+d(0,1)) = sqrt(2)  = z
+d(0,0)         = sqrt(0)  = 0
+d(0,1)         = sqrt(1)  = 1
+d(1,0)         = sqrt(-1) = i
+d((0,1),(1,0)) = sqrt(2)  = z
 ```
 
 Here the combination of basic elements gives us 3 possible outcome. No surprise in that. Zerus element, existential
 element, an so called imaginary element. These three describes a two-dimensional space called as complex numbers. Now the
-interesting part is, applying it to one level recursion of a distance (distance of a distance to zerus), it also
+interesting part is, applying it to two dimensions (two units on different axis gives a Phitagorean triangle), it also
 gives us a fourth element, sqrt(2) which is known as an irrational number. This hints us the following on three-dimensional space:
 
 Conclusion
